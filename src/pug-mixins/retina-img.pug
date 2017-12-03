@@ -1,0 +1,4 @@
+mixin retina-img(src)
+    - var src2x = src.replace(/(\.)[^\.]*$/, "@2x") + src.match(/\.[^\.]*$/);
+    - var src3x = src.replace(/(\.)[^\.]*$/, "@3x") + src.match(/\.[^\.]*$/);
+    img(src=src, srcset=src + " 1x," + src2x + " 2x," + src3x + " 3x")
