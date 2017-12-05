@@ -21,6 +21,7 @@ export default {
 <style scoped lang="scss">
 $red: #ff585b;
 #xs-header {
+  background-color: #333333;
   background-image: url("../../assets/images/header_bg.jpg");
   background-size: cover;
   background-position: center center;

@@ -1,7 +1,7 @@
 <template lang="pug">
   #index
     xs-header
-    //- xs-like-list
+    xs-like-list
     //- xs-activity-list
     //- xs-cta
     //- xs-footer
@@ -10,6 +10,7 @@
 <script>
 import Vue from 'vue'
 import XsHeader from './XsHeader/XsHeader'
+import XsLikeList from './XsLikeList/XsLikeList'
 
 export default {
   name: 'Index',
@@ -21,6 +22,7 @@ export default {
 }
 
 Vue.component('xs-header', XsHeader)
+Vue.component('xs-like-list', XsLikeList)
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

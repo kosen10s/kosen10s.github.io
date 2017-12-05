@@ -1,2 +1,11 @@
 @import '../../../node_modules/sanitize.css/sanitize';
 @import '~bulma/bulma';
+
+html {
+  background-color: white;
+  background-image: url('../images/general_bg@2x.png');
+}
+
+.container {
+  max-width: 1160px;
+}

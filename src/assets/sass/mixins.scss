@@ -1,0 +1,48 @@
+// colors
+$red: #ff585b;
+$blue: #24a9de;
+$green: #1ebd33;
+$navy: #336699;
+
+$text-color: #999999;
+
+p, ul {
+  color: $text-color;
+}
+
+// mixins
+@mixin button($color) {
+  &:before {
+    content: '';
+    display: inline-block;
+    background-image: url("../../assets/images/icon_link@3x.png");
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 5px;
+    margin: -5px 20px 0 -10px;
+  }
+  display: inline-block;
+  border-radius: 100px;
+  background-color: $color;
+  padding: 15px 50px;
+  color: white;
+  box-shadow: rgba($color, 0.3) 0 5px 8px;
+  transition: all 0.2s linear;
+  box-sizing: border-box;
+  border: 2px solid $color;
+  &:hover {
+    border: 2px solid lighten($color, 10%);
+    box-shadow: rgba($color, 0.6) 0 9px 13px;
+  }
+}
+
+@mixin section-title {
+  font-size: 2rem;
+  text-align: center;
+  color: $navy;
+  margin-bottom: 2rem;
+}
