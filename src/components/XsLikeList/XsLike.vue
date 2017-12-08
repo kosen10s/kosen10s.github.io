@@ -24,7 +24,7 @@ export default {
 @mixin xs-like-with-color($key-color) {
   background-color: white;
   border-radius: 5px;
-  padding: 2rem 2.5rem;
+  padding: 2rem 2rem;
   margin: 1.25rem;
   box-shadow: 0px 11px 10px 10px rgba($key-color, 0.08);
   .header {

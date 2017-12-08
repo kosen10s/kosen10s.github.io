@@ -2,7 +2,7 @@
   #index
     xs-header
     xs-like-list
-    //- xs-activity-list
+    xs-activity-list
     //- xs-cta
     //- xs-footer
 </template>
@@ -11,6 +11,7 @@
 import Vue from 'vue'
 import XsHeader from './XsHeader/XsHeader'
 import XsLikeList from './XsLikeList/XsLikeList'
+import XsActivityList from './XsActivityList/XsActivityList'
 
 export default {
   name: 'Index',
@@ -23,6 +24,7 @@ export default {
 
 Vue.component('xs-header', XsHeader)
 Vue.component('xs-like-list', XsLikeList)
+Vue.component('xs-activity-list', XsActivityList)
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
