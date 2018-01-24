@@ -1,6 +1,6 @@
 <template lang="pug">
 include ../../pug-mixins/retina-img
-#xs-activity.column
+#xs-activity
   img(:src="img")
   .contents
     h3.header
@@ -25,8 +25,9 @@ export default {
 #xs-activity {
   background-color: white;
   border-radius: 5px;
-  margin: 1.25rem;
+  margin: 0 0.25rem 1.25rem;
   padding: 0;
+  height: 100%;
   box-shadow: 0px 7px 10px 10px rgba($navy, 0.04);
   img {
     display: block;
@@ -42,7 +43,8 @@ export default {
         font-size: 1.75rem;
         color: $navy;
         flex-grow: 1;
-        line-height: 65px;
+        line-height: 2.75rem;
+        margin-bottom: 1.0rem;
       }
     }
     .description {

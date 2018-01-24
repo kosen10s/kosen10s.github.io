@@ -30,7 +30,7 @@ p, ul {
   background-color: $color;
   padding: 15px 50px;
   color: white;
-  box-shadow: rgba($color, 0.3) 0 5px 8px;
+  filter: drop-shadow(0px 6px 13px, rgba($color, 0.3));
   transition: all 0.2s linear;
   box-sizing: border-box;
   border: 2px solid $color;

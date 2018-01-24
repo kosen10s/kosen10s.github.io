@@ -34,7 +34,7 @@ export default {
     }
     .title {
       display: inline-block;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
       color: $key-color;
       margin-left: 0.75rem;
       flex-grow: 1;
