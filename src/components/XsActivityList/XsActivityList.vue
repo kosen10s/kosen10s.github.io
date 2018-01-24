@@ -70,7 +70,7 @@ export default {
           description: 'ボードゲームと謎解き・リアル脱出ゲームをやっています。'
         },
         {
-          title: '飲み会・食す会',
+          title: '好きに活動増やしてね！',
           img: require('../../assets/images/activity_add.png'),
           description: 'kosen10sのSlackにJoinして雑にゆる募すると同士が見つかるかもしれません！',
           has_button: true,
